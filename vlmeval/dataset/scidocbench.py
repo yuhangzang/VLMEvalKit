@@ -328,7 +328,7 @@ class SciDocBench(ImageBaseDataset):
         'SciDocBench': 'https://opencompass.openxlab.space/utils/VLMEvalKit/SciDocBench.tsv',
     }
     DATASET_MD5 = {
-        'SciDocBench': '8947fc96f82c825bd6c9c1167821cd5b',
+        'SciDocBench': '',
     }
 
     def dump_image(self, line):
