@@ -253,7 +253,8 @@ Rate the reasoning on two independent axes, each in [0.0, 1.0]:
    fabrications ("Table 7 row 3 reports 42.1%").
 
 Respond with a JSON object only, no extra text:
-{{"internal_consistency": <float>, "no_hallucination": <float>, "reasoning_note": "<brief explanation, no newlines>"}}"""
+{{"internal_consistency": <float>, "no_hallucination": <float>, \
+"reasoning_note": "<brief explanation, no newlines>"}}"""
 
 
 def eval_judge(judge_model, prediction, answer, prompt, judge_prompt=None):
